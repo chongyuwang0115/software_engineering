@@ -71,7 +71,9 @@ def home():
         }
     })
 
-
+# 数据库连接函数
+def get_db_connection():
+    return pymysql.connect(**DB_CONFIG)
 
 def get_fish_statistics():
     conn = get_db_connection()

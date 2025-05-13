@@ -19,7 +19,7 @@ def load_data(file_path):
 
 # 主函数，用于与用户交互并进行预测
 def main():
-
+    # 加载数据集
     file_path = 'output.txt'  # 替换为你的数据文件路径
     data = load_data(file_path)
     
